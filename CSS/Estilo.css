@@ -1,0 +1,94 @@
+body {
+  background-color: #001F3F; 
+  color: white;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Menú */
+.menu {
+  width: 60%;
+  background: #001F3F;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center; 
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px; 
+}
+
+.menu li a {
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menu li a:hover {
+  background: #5E939E; 
+  color: #001F3F;
+}
+
+
+section {
+  margin: 40px 0; 
+}
+
+h2 {
+  color: #FFFCFC; 
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #5E939E; 
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 20%;
+  margin: auto;
+  background-color: white;
+  color: #001F3F;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #5E939E; 
+  color: #001F3F;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.formulario-contacto {
+  background-color: white;
+  color: #001F3F;
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(216, 219, 220, 0.2);
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #001F3F;
+  border-radius: 5px;
+}
+
